@@ -13,6 +13,10 @@ class IoTThailand :
     def showdata(self) :
         print ( self.wow * 20) 
     
+    #destsuctor
+    def __del___ (self):
+        print ("Good morning Teacher....")
+    
 ob1 = IoTThailand( 10 , 20 , 10 )
 ob2 = IoTThailand( 10 , 20 , 30 )
 ob3 = IoTThailand( 5 , 20 , 10 )
